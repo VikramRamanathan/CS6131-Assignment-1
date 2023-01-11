@@ -73,6 +73,10 @@
                             <li><button class="dropdown-item" type="button" onclick="showGenre(this)">Select Genre</button></li>
                             <li><button class="dropdown-item" type="button" onclick="showGenre(this)">Fantasy</button></li>
                             <li><button class="dropdown-item" type="button" onclick="showGenre(this)">Science Fiction</button></li>
+                            <li><button class="dropdown-item" type="button" onclick="showGenre(this)">Realist</button></li>
+                            <li><button class="dropdown-item" type="button" onclick="showGenre(this)">Dystopian</button></li>
+                            <li><button class="dropdown-item" type="button" onclick="showGenre(this)">Romance</button></li>
+                            <li><button class="dropdown-item" type="button" onclick="showGenre(this)">Bildungsroman</button></li>
                         </ul>
 
                         <button class="btn btn-outline-secondary dropdown-toggle mx-1" role="button" id="searchbyDropdown"
@@ -93,6 +97,114 @@
         </div>
 
     </section>
+
+    <div class="container my-2 my-md-4">
+        <table class="table">
+            <thead>
+              <tr>
+                <th scope="col">#</th>
+                <th scope="col">Title</th>
+                <th scope="col">Author</th>
+                <th scope="col">Publication Date</th>
+                <th scope="col">Genre</th>
+                <th scope="col">Publisher(s)</th>
+                <th scope="col">Stock</th>
+              </tr>
+            </thead>
+            <tbody>
+              <tr>
+                <th scope="row">1</th>
+                <td>The Lord of the Rings</td>
+                <td>J. R. R. Tolkien</td>
+                <td>1954</td>
+                <td>Fantasy</td>
+                <td>Allen & Unwin</td>
+                <td>2</td>
+              </tr>
+              <tr>
+                <th scope="row">2</th>
+                <td>Anna Karenina</td>
+                <td>Leo Tolstoy</td>
+                <td>1878</td>
+                <td>Realist</td>
+                <td>The Russian Messenger</td>
+                <td>1</td>
+              </tr>
+              <tr>
+                <th scope="row">3</th>
+                <td>Nineteen Eighty-Four</td>
+                <td>George Orwell</td>
+                <td>1949</td>
+                <td>Dystopian</td>
+                <td>Secker & Warberg</td>
+                <td>1</td>
+              </tr>
+              <tr>
+                <th scope="row">4</th>
+                <td>The Time Machine</td>
+                <td>H. G. Wells</td>
+                <td>1895</td>
+                <td>Science Fiction</td>
+                <td>William Heinmann, Henry Holt</td>
+                <td>2</td>
+              </tr>
+              <tr>
+                <th scope="row">5</th>
+                <td>The Lion, the Witch and the Wardrobe</td>
+                <td>C. S. Lewis</td>
+                <td>1950</td>
+                <td>Fantasy</td>
+                <td>Geoffrey Bles</td>
+                <td>2</td>
+              </tr>
+              <tr>
+                <th scope="row">6</th>
+                <td>Pride and Prejudice</td>
+                <td>Jane Austen</td>
+                <td>1813</td>
+                <td>Romance</td>
+                <td>T. Egerton</td>
+                <td>1</td>
+              </tr>
+              <tr>
+                <th scope="row">7</th>
+                <td>To Kill a Mockingbird</td>
+                <td>Harper Lee</td>
+                <td>1960</td>
+                <td>Bildungsroman</td>
+                <td>J. B. Lippincott & Co.</td>
+                <td>4</td>
+              </tr>
+              <tr>
+                <th scope="row">8</th>
+                <td>2001: A Space Oddssey</td>
+                <td>Arthur C. Clarke</td>
+                <td>1968</td>
+                <td>Science Fiction</td>
+                <td>Hutchinson, New American Library</td>
+                <td>1</td>
+              </tr>
+              <tr>
+                <th scope="row">9</th>
+                <td>Brave New World</td>
+                <td>Aldous Huxley</td>
+                <td>1932</td>
+                <td>Dystopian</td>
+                <td>Chatto & Windus</td>
+                <td>2</td>
+              </tr>
+              <tr>
+                <th scope="row">10</th>
+                <td>Little Women</td>
+                <td>Louisa May Alcott</td>
+                <td>1869</td>
+                <td>Bildungsroman</td>
+                <td>Roberts Brothers</td>
+                <td>1</td>
+              </tr>
+            </tbody>
+          </table>
+    </div>
 
     <script>
         function showGenre(item) {
