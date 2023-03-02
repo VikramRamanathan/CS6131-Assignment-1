@@ -6,10 +6,10 @@
             <div class="collapse navbar-collapse" id="navbarCollapse">
                 <ul class="navbar-nav me-auto">
                     <li class="nav-item">
-                        <a class="nav-link" href="{{ url_for('go_to_index') }}">Home</a>
+                        <a class="nav-link" href="{{ url_for('index_name', name = name) }}">Home</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link" href="{{ url_for('go_to_catalogue') }}">Catalogue</a>
+                        <a class="nav-link" href="{{ url_for('go_to_catalogue_name', name = name) }}">Catalogue</a>
                     </li>
                     <li class="nav-item">
                         <a class="nav-link active" aria-current="page" href="#!">Contact Us</a>
@@ -18,10 +18,10 @@
 
                 <ul class="navbar-nav ms-auto">
                     <li class="nav-item">
-                        <a class="nav-link" href="{{ url_for('go_to_login') }}">Login</a>
+                        <a class="nav-link" href="{{ url_for('go_to_login_name', name = name) }}">Login</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link" href="{{ url_for('go_to_login') }}">Register</a>
+                        <a class="nav-link" href="{{ url_for('go_to_register_name', name = name) }}">Register</a>
                     </li>
 
                 </ul>
