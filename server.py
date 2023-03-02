@@ -6,7 +6,11 @@ app = Flask(__name__, static_folder="static")
 @app.route("/")
 @app.route("/index.html")
 def index():
-    return render_template("index.html", name = "User")
+    return render_template("index_test.html", name = "User")
+
+@app.route("/index_test.html")
+def index_test():
+    return render_template("index_test.html", name = "User")
 
 @app.route("/catalogue.html")
 def go_to_catalogue():
